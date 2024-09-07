@@ -1,0 +1,8 @@
+#Ejercicio 1 en Recursion
+
+def multiplicacion (a:int, b:int) -> int:
+    if a == 0:
+        return 0
+    return b + multiplicacion(a - 1, b)
+
+print(multiplicacion(4, 5))
